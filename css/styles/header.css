@@ -26,17 +26,19 @@ picture img{
 }
 @media screen and (min-width: 645px) {
     .title_menu {
-        width: 100%;
+       
+    max-width: 100%;
       position: absolute;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       margin-top: 200px;
       align-items: center; 
     }
    .navmenu {
     display: flex;
     justify-content: center;
+    max-width: 800px;
     
    }
    .navmenu div {
