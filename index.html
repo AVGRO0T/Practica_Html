@@ -74,46 +74,93 @@
                     <li class="skill">
                         <span class="skills_name">Administracion de redes</span>
                         <div class="bar_skills">
-                            <span>50%</span>
+                            <span class="cinc">50%</span>
                         </div>
                     </li>
                     <li class="skill">
                         <span class="skills_name">Administracion de sistemas operativos</span>
                         <div class="bar_skills">
-                            <span>80%</span>
+                            <span class="buit">80%</span>
                         </div>
                     </li>
                     <li class="skill">
                         <span class="skills_name">Ciberseguridad</span>
                         <div class="bar_skills">
-                            <span>60%</span>
+                            <span class="sis">60%</span>
                         </div>
                     </li>
                     <li class="skill">
                         <span class="skills_name">Python, C++, PHP, BASH</span>
                         <div class="bar_skills">
-                            <span>50%</span>
+                            <span class="cinc">50%</span>
                         </div>
                     </li>
                     <li class="skill">
                         <span class="skills_name">BBDD SQL y PostgresSQL</span>
                         <div class="bar_skills">
-                            <span>50%</span>
+                            <span class="cinc">50%</span>
                         </div>
                     </li>
                 </ul>
             </div>
             
         </section>
-
-
+        <!-- creating contact form -->
+        <section id="contact" class="content">
+            <div class="tittle_2">
+                <div class="title_text">
+                    <h2 class="titles"> CONTACT </h2>
+                </div>
+            <div class="form">
+                <form class="form_contact">
+                    <div class="tag_dates">
+                        <div class="name">
+                            <label for="name" class="m-1"> Names (*) </label>
+                            <input type="text" id="name" class="m-1"name="name" required pattern="[A-Za-z]{1,15}">
+                        </div>
+                        <div class="lastname">
+                            <label for="Lname" class="m-1"> LastNames (*) </label>
+                            <input type="text" class="m-1" id="Lname" name="Lname" required pattern="[A-Za-z]{1,15}">
+                        </div>
+                        <div clas="phone">
+                            <label for="numb" class="m-1"> Phone Number (*) </label>
+                            <input type="number"class="m-1" id="numb" name="numb" required maxlength="9" minlength="9">
+                        </div>
+                    </div>
+                    <div class="radio">
+                        <p class="m-1"> ¿Como me has conocido?</p>
+                        <div>
+                            <input type="radio" id="keep-coding" name="keep-coding" value="keep-coding" >
+                            <label for="keep-coding">Keep-coding</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="Estudios" name="Estudios" value="Estudios" >
+                            <label for="Estudios">Estudios</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="Github" name="Github" value="Github" >
+                            <label for="Github">En Github</label>
+                        </div>
+                        <div class="tag-git">
+                            <input type="text" id="tag" value="@" required pattern="@[A-Za-z0-9]{1,15}">    
+                        </div>
+                        <div class="description">
+                            <label for="description" class="m-1">Description</label>
+                            <textarea name="description" id="description" cols="35" rows="5" maxlength="180"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" id="save" name="save"> Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
    </div>
    <!-- Creating Footer -->
 <footer class="footer">
     <div class="social_networks">
-        <img src="img/icons/instagram.png" alt="Instagram">
-        <img src="img/icons/facebook.png" alt="Facebook">
-        <img src="img/icons/gorjeo.png" alt="Twitter">
+     <a href="https://www.instagram.com/_caballeroo__/" rel="noreferrer">  <img src="img/icons/instagram.png"  alt="Instagram"></a> 
+       <a href="https://www.facebook.com/nikolas.caballero.1/" rel="noreferrer"> <img src="img/icons/facebook.png" alt="Facebook"></a>
+       <a href="https://twitter.com/dark00room" rel="noreferrer"> <img src="img/icons/gorjeo.png" alt="Twitter"></a> 
     </div>
 </footer>
 
