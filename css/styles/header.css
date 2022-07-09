@@ -1,4 +1,5 @@
 
+/* Header Mobile */
 header{
     padding: 0;
     width: 100%;
@@ -24,6 +25,7 @@ picture img{
 .navmenu{
     display: none;
 }
+/* Header screen min width 645px */
 @media screen and (min-width: 645px) {
     .title_menu {
        
