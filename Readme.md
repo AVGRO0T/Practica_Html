@@ -9,7 +9,7 @@
     |
     ├───index.html
     ├───sections.html
-    └───Print Pages
+  
     
 # Observaciones
     - Se hizo el index pensando el Mobile First.
@@ -20,7 +20,7 @@
     *settings* --> contiene los resets y el css principal de las dos paginas
     *styles* --> contiene el footer y el header de plantilla para las dos paginas.
 # img 
-    *content* --> Tiene todas las imagenes que fueron necesarias para el contenido del body
+    *content* --> Tiene todas las imagenes que fueron necesarias para el contenido del body; (Aqui hay dos pdf con la previsualización de la web en *Mobile First* y *Desktop*)
     *icons* --> Lleva los iconos de redes sociales
     *Wallpaper* --> son iamgenes para el fondo del header
 # index.html 
