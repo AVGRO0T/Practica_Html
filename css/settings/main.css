@@ -1,5 +1,9 @@
-/* Creating Varibles */
-:root{}
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap'); /* font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap'); /* font-family: 'Edu SA Beginner', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap'); /* font-family: 'Edu NSW ACT Foundation', cursive; */
+
 
 body {
     display: flex;
@@ -11,6 +15,21 @@ body {
     justify-content: space-between;
     
 }
+/* fonts text */
+h2, h3, input, article, div {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+label{
+    color: rgba(66, 65, 65, 0.642);
+}
+.skills_name, .m-1, button {
+    color: rgba(3, 3, 3, 0.807);
+    font-weight: bold;
+}
+input, textarea {
+    background-color: rgba(255, 235, 205, 0.271);
+}
+
 /*  Content Sections  */
 .content{
     display: flex;
@@ -30,6 +49,7 @@ body {
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Edu SA Beginner', cursive;
 }
 /* Creating Carousel */
 .carousel-images{   
@@ -41,6 +61,10 @@ body {
     flex-wrap: wrap;
     background-color: black;
     
+}
+#Fav_content{
+    background-color: rgb(237, 242, 247);
+    margin: 0;
 }
 .images {
 width: 100%;
@@ -95,7 +119,7 @@ align-items: center;
         height: 100%;
         border-radius: 40px;
         text-align: end;
-        animation: example 10s linear infinite;
+        animation: bar80 10s linear infinite;
     }
     .sis{
         max-width: 60%;
@@ -104,6 +128,7 @@ align-items: center;
         height: 100%;
         border-radius: 40px;
         text-align: end;
+        animation: bar60 10s linear infinite;
     }
     .cinc{
         max-width: 60%;
@@ -112,12 +137,29 @@ align-items: center;
         height: 100%;
         border-radius: 40px;
         text-align: end;
+        animation: bar50 10s linear infinite;
     }
     .skill .skills_name{
         text-align: center;
+    } 
+    /* animaciones */
+    @keyframes bar80 {
+    from {background-color: blueviolet; max-width: 0%;}
+    to {background-color: blue; max-width: 80%;}
     }
+    @keyframes bar50 {
+        from {background-color: blueviolet; max-width: 0%;}
+        to {background-color: blue; max-width: 50%;}
+        }
+        @keyframes bar60 {
+            from {background-color: blueviolet; max-width: 0%;}
+            to {background-color: blue; max-width: 60%;}
+            }
 
     /* Contact Style */
+    #contact {
+        background-image: url(https://images7.alphacoders.com/708/thumb-1920-708019.jpg);
+    }
     .form_contact {
         width: 100%;
         display: flex;

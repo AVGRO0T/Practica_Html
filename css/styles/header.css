@@ -1,4 +1,17 @@
+/* Creating fonts */
 
+.tittle {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30PX;
+  font-family: 'Oswald', sans-serif;
+  color: #2B4448 ;
+  transition: color 0.4s;
+}
+.tittle:hover {
+  color: #62AEB9 ;
+  transition: color 0.4s;
+}
 /* Header Mobile */
 header{
     padding: 0;
@@ -6,6 +19,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: -3px;
 }
 picture img{
     max-width: 100%;
@@ -20,13 +34,55 @@ picture img{
   flex-direction: column;
   justify-content: space-between;
   align-items: center; 
+ 
+  text-align: center;
 }
 
 .navmenu{
-    display: none;
+    display: none;   
 }
+.navmenu div {
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2B4448;
+  
+ }
+ .navmenu div a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2B4448;
+  font-size: 18px;
+  transition: color 0.4s;
+ }
+ .navmenu div a:hover{
+  color: #62AEB9;
+  transition: color 0.4s;
+ }
 /* Header screen min width 645px */
 @media screen and (min-width: 645px) {
+  .title_menu {
+    font-family: 'Source Sans Pro', sans-serif;
+  max-width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center; 
+  }
+  
+ .navmenu {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  
+ }
+ .div_title{
+  margin: 30px;
+ }
+  }
+@media screen and (min-width: 710px) {
     .title_menu {
        
     max-width: 100%;
@@ -34,7 +90,7 @@ picture img{
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 200px;
+      margin-top: 170px;
       align-items: center; 
     }
    .navmenu {
